@@ -1,0 +1,185 @@
+/* Header Styles */
+.header {
+    background: #6a1b29;
+    /* Dark red background */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.header .logo {
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header nav ul li {
+    margin: 0 1rem;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+    color: #f8cdd1;
+    /* Light pink color on hover */
+}
+
+/* Navigation Bar Responsive Design */
+@media (max-width: 768px) {
+    .header nav ul {
+        flex-direction: column;
+    }
+
+    .header nav ul li {
+        margin: 0.5rem 0;
+    }
+}
+
+/* Services Section */
+.services-section {
+    background: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-family: 'Playfair Display', serif;
+    color: #6a1b29;
+    margin-bottom: 1rem;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.service-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.service-item h3 {
+    color: #6a1b29;
+}
+
+.service-item p {
+    color: #121212;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Booking Section */
+.booking-section {
+    background: #eaeaea;
+    padding: 2rem;
+    text-align: center;
+}
+
+.booking-section h2 {
+    font-family: 'Playfair Display', serif;
+    color: #6a1b29;
+    margin-bottom: 1rem;
+}
+
+.booking-section form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.342);
+}
+
+.booking-section label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.booking-section select,
+.booking-section input[type="date"],
+.booking-section input[type="time"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.booking-section .btn {
+    background: #6a1b29;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.booking-section .btn:hover {
+    background: #8e2c3a;
+}
+
+/* Virtual Reading Section */
+.virtual-reading-section {
+    background: #e0dada68;
+    padding: 2rem;
+    text-align: center;
+}
+
+.virtual-reading-section h2 {
+    font-family: 'Playfair Display', serif;
+    color: #6a1b29;
+    margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background: #e0dada68;
+    color: #000000;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
