@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read our latest blog posts about tarot, crystals, and spirituality.">
+    <title>Blog - Tarot & Crystals</title>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>Blog</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/services">Services</a>
+            <a href="/shop">Shop</a>
+            <a href="/about">About Us</a>
+            <a href="/educational-content">Educational Content</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Blog Posts -->
+    <section class="blog-section">
+        <h2>Latest Posts</h2>
+        <div class="blog-list">
+            <!-- Example Blog Post -->
+            <article class="blog-post">
+                <img src="{% static 'images/educational/blog_images/tarot_card.jpg' %}" alt="Tarot Card">
+                <h3><a href="/blog/post1">Understanding Tarot Cards: A Beginner's Guide</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut erat a libero tincidunt
+                    pharetra...</p>
+                <a href="/blog/post1" class="read-more">Read More</a>
+            </article>
+            <!-- Additional Posts -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tarot & Crystals. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </footer>
+</body>
+
+</html>

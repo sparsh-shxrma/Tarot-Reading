@@ -1,0 +1,112 @@
+body {
+    background: url('images/space.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.numerology-section,
+.booking-section,
+.virtual-reading-section {
+    background: rgba(0, 0, 0, 0.7);
+    /* Keeps the content readable against the new background */
+    padding: 4rem 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.numerology-section {
+    background: url('images/space.jpeg') no-repeat center center/cover;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    border-radius: 10px;
+}
+
+.numerology-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #d093f4;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.booking-section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.booking-section h2 {
+    font-size: 2rem;
+    color: #d093f4;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.booking-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    background-color: #d093f4;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #cccccc;
+}
+
+.virtual-reading-section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.virtual-reading-section h2 {
+    font-size: 2rem;
+    color: #d093f4;
+    text-shadow: 2px 2px 5px #000;
+}
